@@ -51,11 +51,10 @@ ConsistentHashRing -
    
    //   createHash
    
-   public Integer createHash(String input) {
-        int hash = 7;
-        for (int i = 0; i < input.length(); i++) {
-            hash = hash * 31 + input.charAt(i);
-        }
-
+   public Integer createHash(String input) { <br/>
+        int hash = 7;<br/>
+        for (int i = 0; i < input.length(); i++) {<br/>
+            hash = hash * 31 + input.charAt(i);<br/>
+        }<br/>
         return hash;
-    }
+    }<br/>
