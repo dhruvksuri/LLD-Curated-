@@ -8,6 +8,7 @@ Summary
 3. Display Balance
 
 INPUT:
+
 LOAN MBI Harry 2000 2 2
 
 BALANCE IDIDI Dale 5
