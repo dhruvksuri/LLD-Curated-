@@ -9,8 +9,11 @@ Summary
 
 INPUT:
 LOAN MBI Harry 2000 2 2
+
 BALANCE IDIDI Dale 5
+
 PAYMENT MBI Harry 5000 10
+
 
 1. We would have LoanManager, BalanceManager, PaymentManager
    LoanManager - It is for capturing & validating loan data. If all fine then it will pass info to LoanProcessor
@@ -24,4 +27,5 @@ PAYMENT MBI Harry 5000 10
         double amountPaid, int emiCountLeft, Date dueDate
 
 3. Util - One customer can have Loan from different Banks
+   
     Map<String, Map<String, Loan>> customerLoanMap = new HashMap<>();
