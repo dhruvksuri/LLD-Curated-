@@ -17,13 +17,19 @@ PAYMENT MBI Harry 5000 10
 
 
 1. We would have LoanManager, BalanceManager, PaymentManager
+
    LoanManager - It is for capturing & validating loan data. If all fine then it will pass info to LoanProcessor
+   
    PaymentManager - It is for capturing & validating payment data. It will get payment list for customer and call PaymentProcessor
+   
    BalanceManager - It is for capturing & validating Balance data. It will get payment list for customer and call BalanceProcessor to 
                     display balance.
+                    
 2. Model 
+
    Loan -   
         double principal; double interestAmount; double amount; int emiMonths; int emiAmount; List<Payment> paymentList;
+   
    Payment -
         double amountPaid, int emiCountLeft, Date dueDate
 
