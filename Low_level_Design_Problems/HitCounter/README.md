@@ -1,4 +1,4 @@
-Instant ts;
+Instant ts;++
 Long sec = ts.getEpochSecond()
 The getEpochSecond() method of Instant class is used to return the number of seconds from the Java epoch of 1970-01-01T00:00:00Z
 
